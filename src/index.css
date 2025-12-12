@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "@fontsource/ibm-plex-sans";
+
+:root {
+  font-family: 'IBM Plex Sans',Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #F4F4F4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
