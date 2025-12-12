@@ -4,9 +4,11 @@ import tailwindcss from '@tailwindcss/vite';
 
 
 // https://vite.dev/config/
-// Derive base from Vite mode so the production build targets GitHub Pages.
+// Derive base from env so we can deploy to GitHub Pages (non-root) or Netlify (root).
+// Set VITE_BASE_PATH=/Absher_Tuwaiq/ for GitHub Pages, leave undefined or "/" for Netlify/local.
 export default defineConfig(({ mode }) => {
-  const base = mode === 'production' ? '/Absher_Tuwaiq/' : '/';
+  const envBase = process.env.VITE_BASE_PATH;
+  const base = envBase ?? (mode === 'production' ? '/' : '/');
 
   return {
     base,
