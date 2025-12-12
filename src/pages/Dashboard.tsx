@@ -189,7 +189,7 @@ export default function Dashboard() {
                   <img
                     className="w-full max-w-[167px] shrink-0 rounded-xl object-cover h-auto"
                     alt="Prediction visual"
-                    src={prediction.image}
+                    src={import.meta.env.BASE_URL + prediction.image}
                   />
                   <div className="w-full max-w-3xl">
                     <p className="text-lg font-normal tracking-[0] text-center sm:text-right text-black [direction:rtl] sm:text-xl lg:text-[32px]">

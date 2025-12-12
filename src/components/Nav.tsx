@@ -23,7 +23,7 @@ export default function Nav() {
           <img
             className="h-22 w-auto object-cover sm:h-24 lg:h-30"
             alt="Logo"
-            src="/images/Logo.png"
+            src={import.meta.env.BASE_URL + "/images/Logo.png"}
           />
         </div>
 
