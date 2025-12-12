@@ -8,7 +8,7 @@ import Notifications from "../pages/Notifications";
 import Login from "../pages/Login";
 
 // Align router base with Vite base so routes work on GitHub Pages.
-const basename = import.meta.env.MODE === "development" ? "/" : "/Absher_Tuwaiq/";
+const basename = import.meta.env.BASE_URL ?? "/";
 
 export const router = createBrowserRouter(
     [
