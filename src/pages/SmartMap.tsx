@@ -30,7 +30,7 @@ export default function SmartMap() {
           referrerPolicy="no-referrer-when-downgrade"
         />
         <img
-          src={import.meta.env.BASE_URL + "/images/map.png"}
+          src={`${import.meta.env.BASE_URL}images/map.png`}
           alt="خريطة توضيحية"
           className="pointer-events-none absolute left-3 top-4 w-40 rounded-2xl sm:left-6 sm:top-6 sm:w-52 lg:left-7 lg:top-10 lg:w-[300px]"
         />

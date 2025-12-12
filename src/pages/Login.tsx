@@ -15,7 +15,7 @@ export default function TabeerLogin() {
     return (
         <div className="flex min-h-screen flex-col lg:flex-row" dir="rtl">
             <div className="flex w-full flex-col items-center justify-center gap-6 bg-linear-to-br from-emerald-500 to-emerald-600 p-10 text-white sm:p-12 lg:w-1/2 relative">
-                <img src={import.meta.env.BASE_URL + "/images/Login-Logo.png"} alt="شعار تبيير" className="w-52 sm:w-52 md:w-72" />
+                <img src={`${import.meta.env.BASE_URL}images/Login-Logo.png`} alt="شعار تبيير" className="w-52 sm:w-52 md:w-72" />
                 <p className="max-w-xl absolute sm:relative bottom-10 text-center text-2xl font-semibold leading-relaxed sm:text-3xl">
                     تبيير.... روئتك الشاملة لإدارة المخاطر بذكاء
                 </p>

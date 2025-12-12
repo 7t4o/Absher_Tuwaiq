@@ -38,12 +38,12 @@ const aiPredictions = [
   {
     text: "إحتمال زيادة الخطر بنسبة 21% خلال 3 ساعات",
     reason: "الأسباب المحتملة: إزدحام في المنطقة الجنوبية",
-    image: "/images/dashboard 1.png",
+    image: `${import.meta.env.BASE_URL}images/dashboard 1.png`,
   },
   {
     text: "إحتمال زيادة الخطر بنسبة 30% خلال 3 ساعات",
     reason: "الأسباب المحتملة: ارتفاع كثافة الحشود + تنبيهات متكررة غير معالجة",
-    image: "/images/dashboard 2.png",
+    image: `${import.meta.env.BASE_URL}images/dashboard 2.png`,
   },
 ];
 

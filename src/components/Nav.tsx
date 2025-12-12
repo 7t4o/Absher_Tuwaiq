@@ -16,7 +16,7 @@ export default function Nav() {
       <img
         className="absolute top-0 right-0 w-[287px] h-56 object-cover"
         alt="Logo"
-        src="/images/Logo.png"
+        src={`${import.meta.env.BASE_URL}images/Logo.png`}
       />
       <nav className="flex items-center justify-start gap-16 h-full px-[90px]">
         {navigationItems.map((item, index) => (
@@ -34,5 +34,5 @@ export default function Nav() {
         ))}
       </nav>
     </header>
-  )
+  );
 }
